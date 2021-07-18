@@ -16,6 +16,11 @@ public: // access specifier
     void public_func_external(); // external function define
 };
 
+// A :: name = "changing the name";  // this line will give error 
+// reason --> we can not initialize the data member outside the class we can use it only when it is static
+// string A:: external_var = "D";  // giving error because not static
+
+
 void A :: public_func_external() // external function
 {
     cout << "hi my name is "<< endl << name << endl; // work fine with both 
