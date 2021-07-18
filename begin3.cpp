@@ -1,3 +1,8 @@
+// accessing public method and variable and modifying public so that we can access private and protected
+// and not accessing privvated and protected
+
+
+
 #include<bits/stdc++.h>
 using namespace std ;
 

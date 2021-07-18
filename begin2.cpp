@@ -1,3 +1,6 @@
+// accessing public method and variable
+// and not accessing privvated and protected
+
 #include<bits/stdc++.h>
 using namespace std ;
 
