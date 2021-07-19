@@ -16,7 +16,7 @@ public:
     void setName(string iname){name = iname;}
 };
 
-class B : private A  // accessing in protected style
+class B : private A  // accessing in private style
 {
     public: 
         void introduce()
