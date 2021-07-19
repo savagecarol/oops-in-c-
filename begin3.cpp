@@ -37,7 +37,7 @@ protected: // access specifier
 int main()
 {
     A s; // class object
-    
+
       s.public_var = "public var"; // giving value to public variable
     // public  --> we can not access private and protected memthod
     s.public_func();

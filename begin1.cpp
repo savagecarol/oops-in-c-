@@ -1,18 +1,25 @@
 #include<bits/stdc++.h>
 using namespace std ;
 
-class A // class name
+class Person // class name 
 {
 public: // access specifier 
-    void r()
+    int age ;
+    string name;
+    void getdat(int age , string name)
     {
-        cout << "Dfs"; // internal function 
+        this->name = name;
+        this->age = age;
+
     }
 };
 
 int main()
 {
-    A s; // class object
-    s.r(); // method calling by object
+    Person person1; // class object
+    Person person2; // physcial entity
+    person1.getdat(18 , "savage");
+    person2.getdat(16 , "piyus");
+
     return 0;
 }
