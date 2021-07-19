@@ -18,6 +18,8 @@
 
 
 
+// second topic accessing in public style
+
 #include<bits/stdc++.h>
 using namespace std ;
 

@@ -1,4 +1,4 @@
-// protected access specifier
+// protected member accessing
 
 //if there is data member , member function in protected access specifier then we cannot access it we can only 
 //access it by the help of sub classes that are inherited.
