@@ -1,4 +1,11 @@
-// caaling method using base class type
+//polymorphism
+
+// same name of functions but different work
+
+// virtual functions--> they used virtual keyword
+// and they are in base clas
+// there definiton is in drived class
+// 
 
 #include<bits/stdc++.h>
 using namespace std ;
@@ -21,15 +28,6 @@ public:
         cout << "name in derived class" << endl;
     }
 };
-void whoisthisfirst(A a)
-{
-    a.name();
-}
-
-void whoisthissecond(B a)
-{
-    a.name();
-}
 
 
 int main()
@@ -37,7 +35,6 @@ int main()
     B sav;
     sav.name(); // class function
     sav.A::name(); // base class function
-    whoisthisfirst(sav); // base class  name function will run
-    whoisthissecond(sav); // derived class name function will run
+   
     return 0;
 }
