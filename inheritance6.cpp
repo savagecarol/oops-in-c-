@@ -1,5 +1,9 @@
 // constructor concept in c++
 
+// first base constructor thn subclass constructor
+// destructor work in reverse order of constructor
+
+
 #include<bits/stdc++.h>
 using namespace std ;
 

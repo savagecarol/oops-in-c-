@@ -1,5 +1,7 @@
 // access declartion manually
 
+
+
 #include<bits/stdc++.h>
 using namespace std ;
 
