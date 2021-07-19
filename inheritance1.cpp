@@ -30,7 +30,7 @@ public:
     int age ;
     string name ;
     void setName(string iname){name = iname;}
-    void setAge(int iage){name = iage;}
+    void setAge(int iage){age = iage;}
 };
 
 
@@ -44,8 +44,6 @@ class B : public A  // accessing in public style
         {
             cout  << name << " " << age << " " << id << endl;
         }
-
-
 };
 
 int main()
