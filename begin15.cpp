@@ -15,8 +15,6 @@ class lol
 private:
    static int p;
    int r = 10;
-
-
 public: 
     lol()
     {
@@ -32,6 +30,7 @@ public:
         cout <<"public static " <<p << endl; 
 
     }
+
 };
 
 int lol :: p= 0;

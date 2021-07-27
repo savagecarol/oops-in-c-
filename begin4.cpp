@@ -23,6 +23,7 @@ int main()
     // techniques 2 --> by using new keyword it stores in heap and dynamically allocated
     // we use pointer because it returns the memory address
     A *savagecarol = new A();
+    cout << savagecarol << " ";// address
     savagecarol->name = "savagecarol"; // we have to use the arrow operator
     savagecarol->public_func();   
     return 0;

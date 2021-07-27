@@ -19,10 +19,10 @@ public:
         age = 18;
         name = "Savagecarol";
     }
+    // destructor
     ~A(){
         cout << "destructor" << endl;
     }
-    // parameterized construcor
 
     string public_var = "public var"; 
     void public_func()  

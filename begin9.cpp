@@ -7,10 +7,8 @@ class A
 {
 private:
     string private_var = "private var";
-
     int age ;
     string name ;
-
 public: 
     A(){
         cout << "default constructor" << endl;

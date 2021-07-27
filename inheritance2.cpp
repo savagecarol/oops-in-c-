@@ -4,8 +4,8 @@
 //access it by the help of sub classes that are inherited.
 
 
-// we can not access private member in base subclass
-// but we can access protected member in base class
+// we can not access private member in sub subclass
+// but we can access protected member in sub class
 
 
 #include<bits/stdc++.h>

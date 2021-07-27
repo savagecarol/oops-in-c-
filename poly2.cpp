@@ -11,7 +11,6 @@
 using namespace std ;
 class A 
 {
-private: int age;
 public:
    virtual void name() // virtual function have inherited
     {

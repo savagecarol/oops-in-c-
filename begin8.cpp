@@ -27,7 +27,5 @@ int main()
 {
     // A s; // class object //
      // A *s = new A(); constructor will not called give error 
-     // s->public_func(); // we are working on private member functions by help of this public function
-
     return 0;
 }

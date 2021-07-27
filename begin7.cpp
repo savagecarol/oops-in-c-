@@ -33,6 +33,7 @@ public: // access specifier
 int main()
 {
     A s; // class object
+    A *p = new A();
     s.public_func(); // we are working on private member functions by help of this public function
 
     return 0;
